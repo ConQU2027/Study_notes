@@ -1,6 +1,0 @@
-#Request
-int32 target_height
----
-#Response
-int32 current_height
-int32 days
