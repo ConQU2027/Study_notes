@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "lr_interfaces__py",
+		"source" : "/home/ting/homework/src/build/lr_interfaces/lr_interfaces__py"
+	}
+}
