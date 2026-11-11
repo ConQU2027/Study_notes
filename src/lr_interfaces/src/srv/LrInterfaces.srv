@@ -1,0 +1,4 @@
+int32 target_height
+---
+int32 current_height
+int32 days
