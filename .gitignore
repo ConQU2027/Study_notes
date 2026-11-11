@@ -31,3 +31,7 @@ env/
 # 操作系统文件
 .DS_Store
 Thumbs.db
+# ROS 2 工作空间生成的文件
+homework/ros2_ws/build/
+homework/ros2_ws/install/
+homework/ros2_ws/log/
