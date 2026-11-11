@@ -1,1 +1,0 @@
-/home/tshai/ros2_ws/build/car_interfaces/rosidl_typesupport_fastrtps_c/car_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h

@@ -1,1 +1,0 @@
-/home/tshai/ros2_ws/build/car_interfaces/rosidl_generator_py/car_interfaces/_car_interfaces_s.ep.rosidl_typesupport_introspection_c.c

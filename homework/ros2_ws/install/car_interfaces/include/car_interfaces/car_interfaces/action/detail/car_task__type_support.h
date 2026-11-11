@@ -1,1 +1,0 @@
-/home/tshai/ros2_ws/build/car_interfaces/rosidl_generator_c/car_interfaces/action/detail/car_task__type_support.h

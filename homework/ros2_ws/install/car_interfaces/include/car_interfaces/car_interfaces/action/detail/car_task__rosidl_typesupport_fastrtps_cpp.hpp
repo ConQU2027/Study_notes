@@ -1,1 +1,0 @@
-/home/tshai/ros2_ws/build/car_interfaces/rosidl_typesupport_fastrtps_cpp/car_interfaces/action/detail/car_task__rosidl_typesupport_fastrtps_cpp.hpp

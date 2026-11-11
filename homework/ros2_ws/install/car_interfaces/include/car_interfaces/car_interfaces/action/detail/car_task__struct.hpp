@@ -1,1 +1,0 @@
-/home/tshai/ros2_ws/build/car_interfaces/rosidl_generator_cpp/car_interfaces/action/detail/car_task__struct.hpp
