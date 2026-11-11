@@ -1,0 +1,21 @@
+[0.409s] Invoking command in '/home/tshai/Desktop/moon/src/niluo': PYTHONPATH=/home/tshai/Desktop/moon/build/niluo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tshai/Desktop/moon/install/niluo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/niluo build --build-base /home/tshai/Desktop/moon/build/niluo/build install --record /home/tshai/Desktop/moon/build/niluo/install.log --install-scripts $base/lib/niluo --single-version-externally-managed install_data
+[0.516s] running egg_info
+[0.516s] writing ../../build/niluo/niluo.egg-info/PKG-INFO
+[0.517s] writing dependency_links to ../../build/niluo/niluo.egg-info/dependency_links.txt
+[0.517s] writing entry points to ../../build/niluo/niluo.egg-info/entry_points.txt
+[0.517s] writing requirements to ../../build/niluo/niluo.egg-info/requires.txt
+[0.517s] writing top-level names to ../../build/niluo/niluo.egg-info/top_level.txt
+[0.518s] reading manifest file '../../build/niluo/niluo.egg-info/SOURCES.txt'
+[0.518s] writing manifest file '../../build/niluo/niluo.egg-info/SOURCES.txt'
+[0.518s] running build
+[0.518s] running build_py
+[0.518s] running install
+[0.519s] running install_lib
+[0.519s] running install_data
+[0.519s] running install_egg_info
+[0.520s] removing '/home/tshai/Desktop/moon/install/niluo/lib/python3.10/site-packages/niluo-0.0.0-py3.10.egg-info' (and everything under it)
+[0.521s] Copying ../../build/niluo/niluo.egg-info to /home/tshai/Desktop/moon/install/niluo/lib/python3.10/site-packages/niluo-0.0.0-py3.10.egg-info
+[0.521s] running install_scripts
+[0.532s] Installing niluo_node script to /home/tshai/Desktop/moon/install/niluo/lib/niluo
+[0.532s] writing list of installed files to '/home/tshai/Desktop/moon/build/niluo/install.log'
+[0.547s] Invoked command in '/home/tshai/Desktop/moon/src/niluo' returned '0': PYTHONPATH=/home/tshai/Desktop/moon/build/niluo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tshai/Desktop/moon/install/niluo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/niluo build --build-base /home/tshai/Desktop/moon/build/niluo/build install --record /home/tshai/Desktop/moon/build/niluo/install.log --install-scripts $base/lib/niluo --single-version-externally-managed install_data

@@ -1,0 +1,33 @@
+# Python 缓存和编译产物
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 构建和打包产物
+build/
+dist/
+*.egg-info/
+
+# Python 虚拟环境
+.venv/
+venv/
+env/
+
+# 测试和检查工具缓存
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter 缓存
+.ipynb_checkpoints/
+
+# 编辑器配置
+.vscode/
+.idea/
+
+# 环境变量和密钥，避免泄露账号密码
+.env
+
+# 操作系统文件
+.DS_Store
+Thumbs.db

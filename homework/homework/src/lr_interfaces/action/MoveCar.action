@@ -1,0 +1,12 @@
+# Goal
+# 二维目标位置，z 不使用，保持为 0
+geometry_msgs/Point target_position
+---
+# Result
+geometry_msgs/Point final_position
+float64 total_time_sec
+---
+# Feedback
+geometry_msgs/Point current_position
+geometry_msgs/Vector3 current_velocity
+float64 distance_to_target

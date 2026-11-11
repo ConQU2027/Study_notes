@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing car_action.egg-info/PKG-INFO
+writing dependency_links to car_action.egg-info/dependency_links.txt
+writing entry points to car_action.egg-info/entry_points.txt
+writing requirements to car_action.egg-info/requires.txt
+writing top-level names to car_action.egg-info/top_level.txt
+reading manifest file 'car_action.egg-info/SOURCES.txt'
+writing manifest file 'car_action.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tshai/ros2_ws/install/car_action/lib/python3.10/site-packages/car-action.egg-link (link to .)
+Installing car_client script to /home/tshai/ros2_ws/install/car_action/lib/car_action
+Installing car_server script to /home/tshai/ros2_ws/install/car_action/lib/car_action
+
+Installed /home/tshai/ros2_ws/build/car_action
+running symlink_data

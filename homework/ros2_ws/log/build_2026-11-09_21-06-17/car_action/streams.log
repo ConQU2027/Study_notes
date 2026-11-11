@@ -1,0 +1,25 @@
+[0.480s] Invoking command in '/home/tshai/ros2_ws/build/car_action': AMENT_PREFIX_PATH=/home/tshai/ros2_ws/install/car_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tshai/ros2_ws/install/car_interfaces LD_LIBRARY_PATH=/home/tshai/ros2_ws/install/car_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tshai/ros2_ws/build/car_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tshai/ros2_ws/install/car_action/lib/python3.10/site-packages:/home/tshai/ros2_ws/install/car_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tshai/ros2_ws/build/car_action/build --no-deps symlink_data
+[0.600s] running develop
+[0.671s] running egg_info
+[0.671s] creating car_action.egg-info
+[0.671s] writing car_action.egg-info/PKG-INFO
+[0.671s] writing dependency_links to car_action.egg-info/dependency_links.txt
+[0.671s] writing entry points to car_action.egg-info/entry_points.txt
+[0.671s] writing requirements to car_action.egg-info/requires.txt
+[0.671s] writing top-level names to car_action.egg-info/top_level.txt
+[0.671s] writing manifest file 'car_action.egg-info/SOURCES.txt'
+[0.672s] reading manifest file 'car_action.egg-info/SOURCES.txt'
+[0.672s] writing manifest file 'car_action.egg-info/SOURCES.txt'
+[0.673s] running build_ext
+[0.673s] Creating /home/tshai/ros2_ws/install/car_action/lib/python3.10/site-packages/car-action.egg-link (link to .)
+[0.673s] Installing car_client script to /home/tshai/ros2_ws/install/car_action/lib/car_action
+[0.674s] Installing car_server script to /home/tshai/ros2_ws/install/car_action/lib/car_action
+[0.674s] 
+[0.674s] Installed /home/tshai/ros2_ws/build/car_action
+[0.674s] running symlink_data
+[0.674s] creating /home/tshai/ros2_ws/install/car_action/share/ament_index
+[0.674s] creating /home/tshai/ros2_ws/install/car_action/share/ament_index/resource_index
+[0.674s] creating /home/tshai/ros2_ws/install/car_action/share/ament_index/resource_index/packages
+[0.674s] symbolically linking /home/tshai/ros2_ws/build/car_action/resource/car_action -> /home/tshai/ros2_ws/install/car_action/share/ament_index/resource_index/packages
+[0.674s] symbolically linking /home/tshai/ros2_ws/build/car_action/package.xml -> /home/tshai/ros2_ws/install/car_action/share/car_action
+[0.690s] Invoked command in '/home/tshai/ros2_ws/build/car_action' returned '0': AMENT_PREFIX_PATH=/home/tshai/ros2_ws/install/car_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tshai/ros2_ws/install/car_interfaces LD_LIBRARY_PATH=/home/tshai/ros2_ws/install/car_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tshai/ros2_ws/build/car_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tshai/ros2_ws/install/car_action/lib/python3.10/site-packages:/home/tshai/ros2_ws/install/car_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tshai/ros2_ws/build/car_action/build --no-deps symlink_data

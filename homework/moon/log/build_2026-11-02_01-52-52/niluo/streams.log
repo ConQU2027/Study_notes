@@ -1,0 +1,37 @@
+[0.458s] Invoking command in '/home/tshai/Desktop/moon/src/niluo': PYTHONPATH=/home/tshai/Desktop/moon/build/niluo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tshai/Desktop/moon/install/niluo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/niluo build --build-base /home/tshai/Desktop/moon/build/niluo/build install --record /home/tshai/Desktop/moon/build/niluo/install.log --install-scripts $base/lib/niluo --single-version-externally-managed install_data
+[0.565s] running egg_info
+[0.566s] creating ../../build/niluo/niluo.egg-info
+[0.566s] writing ../../build/niluo/niluo.egg-info/PKG-INFO
+[0.566s] writing dependency_links to ../../build/niluo/niluo.egg-info/dependency_links.txt
+[0.566s] writing entry points to ../../build/niluo/niluo.egg-info/entry_points.txt
+[0.566s] writing requirements to ../../build/niluo/niluo.egg-info/requires.txt
+[0.566s] writing top-level names to ../../build/niluo/niluo.egg-info/top_level.txt
+[0.566s] writing manifest file '../../build/niluo/niluo.egg-info/SOURCES.txt'
+[0.567s] reading manifest file '../../build/niluo/niluo.egg-info/SOURCES.txt'
+[0.567s] writing manifest file '../../build/niluo/niluo.egg-info/SOURCES.txt'
+[0.567s] running build
+[0.567s] running build_py
+[0.567s] creating /home/tshai/Desktop/moon/build/niluo/build
+[0.567s] creating /home/tshai/Desktop/moon/build/niluo/build/lib
+[0.568s] creating /home/tshai/Desktop/moon/build/niluo/build/lib/niluo
+[0.568s] copying niluo/__init__.py -> /home/tshai/Desktop/moon/build/niluo/build/lib/niluo
+[0.568s] copying niluo/niluo_node.py -> /home/tshai/Desktop/moon/build/niluo/build/lib/niluo
+[0.568s] running install
+[0.568s] running install_lib
+[0.568s] creating /home/tshai/Desktop/moon/install/niluo/lib/python3.10/site-packages/niluo
+[0.568s] copying /home/tshai/Desktop/moon/build/niluo/build/lib/niluo/__init__.py -> /home/tshai/Desktop/moon/install/niluo/lib/python3.10/site-packages/niluo
+[0.568s] copying /home/tshai/Desktop/moon/build/niluo/build/lib/niluo/niluo_node.py -> /home/tshai/Desktop/moon/install/niluo/lib/python3.10/site-packages/niluo
+[0.568s] byte-compiling /home/tshai/Desktop/moon/install/niluo/lib/python3.10/site-packages/niluo/__init__.py to __init__.cpython-310.pyc
+[0.568s] byte-compiling /home/tshai/Desktop/moon/install/niluo/lib/python3.10/site-packages/niluo/niluo_node.py to niluo_node.cpython-310.pyc
+[0.569s] running install_data
+[0.569s] creating /home/tshai/Desktop/moon/install/niluo/share/ament_index
+[0.569s] creating /home/tshai/Desktop/moon/install/niluo/share/ament_index/resource_index
+[0.569s] creating /home/tshai/Desktop/moon/install/niluo/share/ament_index/resource_index/packages
+[0.569s] copying resource/niluo -> /home/tshai/Desktop/moon/install/niluo/share/ament_index/resource_index/packages
+[0.569s] copying package.xml -> /home/tshai/Desktop/moon/install/niluo/share/niluo
+[0.569s] running install_egg_info
+[0.570s] Copying ../../build/niluo/niluo.egg-info to /home/tshai/Desktop/moon/install/niluo/lib/python3.10/site-packages/niluo-0.0.0-py3.10.egg-info
+[0.570s] running install_scripts
+[0.581s] Installing niluo_node script to /home/tshai/Desktop/moon/install/niluo/lib/niluo
+[0.581s] writing list of installed files to '/home/tshai/Desktop/moon/build/niluo/install.log'
+[0.606s] Invoked command in '/home/tshai/Desktop/moon/src/niluo' returned '0': PYTHONPATH=/home/tshai/Desktop/moon/build/niluo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tshai/Desktop/moon/install/niluo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/niluo build --build-base /home/tshai/Desktop/moon/build/niluo/build install --record /home/tshai/Desktop/moon/build/niluo/install.log --install-scripts $base/lib/niluo --single-version-externally-managed install_data

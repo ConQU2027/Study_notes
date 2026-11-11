@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/niluo/niluo.egg-info
+writing ../../build/niluo/niluo.egg-info/PKG-INFO
+writing dependency_links to ../../build/niluo/niluo.egg-info/dependency_links.txt
+writing entry points to ../../build/niluo/niluo.egg-info/entry_points.txt
+writing requirements to ../../build/niluo/niluo.egg-info/requires.txt
+writing top-level names to ../../build/niluo/niluo.egg-info/top_level.txt
+writing manifest file '../../build/niluo/niluo.egg-info/SOURCES.txt'
+reading manifest file '../../build/niluo/niluo.egg-info/SOURCES.txt'
+writing manifest file '../../build/niluo/niluo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/tshai/Desktop/moon/build/niluo/build
+creating /home/tshai/Desktop/moon/build/niluo/build/lib
+creating /home/tshai/Desktop/moon/build/niluo/build/lib/niluo
+copying niluo/__init__.py -> /home/tshai/Desktop/moon/build/niluo/build/lib/niluo
+copying niluo/niluo_node.py -> /home/tshai/Desktop/moon/build/niluo/build/lib/niluo
+running install
+running install_lib
+creating /home/tshai/Desktop/moon/install/niluo/lib/python3.10/site-packages/niluo
+copying /home/tshai/Desktop/moon/build/niluo/build/lib/niluo/__init__.py -> /home/tshai/Desktop/moon/install/niluo/lib/python3.10/site-packages/niluo
+copying /home/tshai/Desktop/moon/build/niluo/build/lib/niluo/niluo_node.py -> /home/tshai/Desktop/moon/install/niluo/lib/python3.10/site-packages/niluo
+byte-compiling /home/tshai/Desktop/moon/install/niluo/lib/python3.10/site-packages/niluo/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/tshai/Desktop/moon/install/niluo/lib/python3.10/site-packages/niluo/niluo_node.py to niluo_node.cpython-310.pyc
+running install_data
+creating /home/tshai/Desktop/moon/install/niluo/share/ament_index
+creating /home/tshai/Desktop/moon/install/niluo/share/ament_index/resource_index
+creating /home/tshai/Desktop/moon/install/niluo/share/ament_index/resource_index/packages
+copying resource/niluo -> /home/tshai/Desktop/moon/install/niluo/share/ament_index/resource_index/packages
+copying package.xml -> /home/tshai/Desktop/moon/install/niluo/share/niluo
+running install_egg_info
+Copying ../../build/niluo/niluo.egg-info to /home/tshai/Desktop/moon/install/niluo/lib/python3.10/site-packages/niluo-0.0.0-py3.10.egg-info
+running install_scripts
+Installing niluo_node script to /home/tshai/Desktop/moon/install/niluo/lib/niluo
+writing list of installed files to '/home/tshai/Desktop/moon/build/niluo/install.log'

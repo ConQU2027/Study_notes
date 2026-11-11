@@ -1,0 +1,178 @@
+[0.055s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.055s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x748fb7ed1600>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x748fb7fd2770>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x748fb7fd2770>>, mixin_verb=('build',))
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.127s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tshai/Desktop/moon'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/niluo) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/niluo) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/niluo) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/niluo) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/niluo) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/niluo) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/niluo) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/niluo) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/niluo) by extension 'ros'
+[0.134s] DEBUG:colcon.colcon_core.package_identification:Package 'src/niluo' with type 'ros.ament_python' and name 'niluo'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/student) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/student) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/student) by extension 'ignore_ament_install'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/student) by extensions ['colcon_pkg']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/student) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/student) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/student) by extension 'colcon_meta'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/student) by extensions ['ros']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/student) by extension 'ros'
+[0.135s] DEBUG:colcon.colcon_core.package_identification:Package 'src/student' with type 'ros.ament_python' and name 'student'
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.152s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'niluo' build argument 'cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'niluo' build argument 'cmake_target' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'niluo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'niluo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'niluo' build argument 'cmake_clean_first' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'niluo' build argument 'cmake_force_configure' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'niluo' build argument 'ament_cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'niluo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'niluo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.170s] DEBUG:colcon.colcon_core.verb:Building package 'niluo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tshai/Desktop/moon/build/niluo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tshai/Desktop/moon/install/niluo', 'merge_install': False, 'path': '/home/tshai/Desktop/moon/src/niluo', 'symlink_install': False, 'test_result_base': None}
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'student' build argument 'cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'student' build argument 'cmake_target' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'student' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'student' build argument 'cmake_clean_cache' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'student' build argument 'cmake_clean_first' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'student' build argument 'cmake_force_configure' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'student' build argument 'ament_cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'student' build argument 'catkin_cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'student' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.170s] DEBUG:colcon.colcon_core.verb:Building package 'student' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tshai/Desktop/moon/build/student', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tshai/Desktop/moon/install/student', 'merge_install': False, 'path': '/home/tshai/Desktop/moon/src/student', 'symlink_install': False, 'test_result_base': None}
+[0.170s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.171s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.171s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tshai/Desktop/moon/src/niluo' with build type 'ament_python'
+[0.171s] Level 1:colcon.colcon_core.shell:create_environment_hook('niluo', 'ament_prefix_path')
+[0.172s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tshai/Desktop/moon/install/niluo/share/niluo/hook/ament_prefix_path.ps1'
+[0.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tshai/Desktop/moon/install/niluo/share/niluo/hook/ament_prefix_path.dsv'
+[0.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tshai/Desktop/moon/install/niluo/share/niluo/hook/ament_prefix_path.sh'
+[0.174s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.174s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.175s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tshai/Desktop/moon/src/student' with build type 'ament_python'
+[0.176s] Level 1:colcon.colcon_core.shell:create_environment_hook('student', 'ament_prefix_path')
+[0.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tshai/Desktop/moon/install/student/share/student/hook/ament_prefix_path.ps1'
+[0.176s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tshai/Desktop/moon/install/student/share/student/hook/ament_prefix_path.dsv'
+[0.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tshai/Desktop/moon/install/student/share/student/hook/ament_prefix_path.sh'
+[0.177s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.177s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.300s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tshai/Desktop/moon/src/niluo'
+[0.301s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.301s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.419s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tshai/Desktop/moon/src/student'
+[0.419s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.419s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.576s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: register, upload_docs, dist_info, saveopts, bdist_dumb, bdist_rpm, install_scripts, build_scripts, test, symlink_data, develop, sdist, build_clib, upload, rotate, build_py, build_ext, install_lib, bdist, install, install_egg_info, clean, alias, install_data, easy_install, build, egg_info, setopt, check, bdist_egg, install_headers
+[0.579s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: register, upload_docs, dist_info, saveopts, bdist_dumb, bdist_rpm, install_scripts, build_scripts, test, symlink_data, develop, sdist, build_clib, upload, rotate, build_py, build_ext, install_lib, bdist, install, install_egg_info, clean, alias, install_data, easy_install, build, egg_info, setopt, check, bdist_egg, install_headers
+[0.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tshai/Desktop/moon/src/student': PYTHONPATH=/home/tshai/Desktop/moon/build/student/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tshai/Desktop/moon/install/student/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/student build --build-base /home/tshai/Desktop/moon/build/student/build install --record /home/tshai/Desktop/moon/build/student/install.log --install-scripts $base/lib/student --single-version-externally-managed install_data
+[0.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tshai/Desktop/moon/src/niluo': PYTHONPATH=/home/tshai/Desktop/moon/build/niluo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tshai/Desktop/moon/install/niluo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/niluo build --build-base /home/tshai/Desktop/moon/build/niluo/build install --record /home/tshai/Desktop/moon/build/niluo/install.log --install-scripts $base/lib/niluo --single-version-externally-managed install_data
+[0.719s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tshai/Desktop/moon/src/niluo' returned '0': PYTHONPATH=/home/tshai/Desktop/moon/build/niluo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tshai/Desktop/moon/install/niluo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/niluo build --build-base /home/tshai/Desktop/moon/build/niluo/build install --record /home/tshai/Desktop/moon/build/niluo/install.log --install-scripts $base/lib/niluo --single-version-externally-managed install_data
+[0.720s] Level 1:colcon.colcon_core.environment:checking '/home/tshai/Desktop/moon/install/niluo' for CMake module files
+[0.720s] Level 1:colcon.colcon_core.environment:checking '/home/tshai/Desktop/moon/install/niluo' for CMake config files
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/tshai/Desktop/moon/install/niluo/lib'
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/tshai/Desktop/moon/install/niluo/bin'
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/tshai/Desktop/moon/install/niluo/lib/pkgconfig/niluo.pc'
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/tshai/Desktop/moon/install/niluo/lib/python3.10/site-packages'
+[0.721s] Level 1:colcon.colcon_core.shell:create_environment_hook('niluo', 'pythonpath')
+[0.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tshai/Desktop/moon/install/niluo/share/niluo/hook/pythonpath.ps1'
+[0.722s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tshai/Desktop/moon/install/niluo/share/niluo/hook/pythonpath.dsv'
+[0.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tshai/Desktop/moon/install/niluo/share/niluo/hook/pythonpath.sh'
+[0.722s] Level 1:colcon.colcon_core.environment:checking '/home/tshai/Desktop/moon/install/niluo/bin'
+[0.722s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(niluo)
+[0.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/tshai/Desktop/moon/install/niluo/share/niluo/package.ps1'
+[0.723s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tshai/Desktop/moon/install/niluo/share/niluo/package.dsv'
+[0.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/tshai/Desktop/moon/install/niluo/share/niluo/package.sh'
+[0.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/tshai/Desktop/moon/install/niluo/share/niluo/package.bash'
+[0.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/tshai/Desktop/moon/install/niluo/share/niluo/package.zsh'
+[0.725s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tshai/Desktop/moon/install/niluo/share/colcon-core/packages/niluo)
+[0.725s] Level 1:colcon.colcon_core.environment:checking '/home/tshai/Desktop/moon/install/student' for CMake module files
+[0.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tshai/Desktop/moon/src/student' returned '0': PYTHONPATH=/home/tshai/Desktop/moon/build/student/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tshai/Desktop/moon/install/student/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/student build --build-base /home/tshai/Desktop/moon/build/student/build install --record /home/tshai/Desktop/moon/build/student/install.log --install-scripts $base/lib/student --single-version-externally-managed install_data
+[0.726s] Level 1:colcon.colcon_core.environment:checking '/home/tshai/Desktop/moon/install/student' for CMake config files
+[0.726s] Level 1:colcon.colcon_core.environment:checking '/home/tshai/Desktop/moon/install/student/lib'
+[0.726s] Level 1:colcon.colcon_core.environment:checking '/home/tshai/Desktop/moon/install/student/bin'
+[0.726s] Level 1:colcon.colcon_core.environment:checking '/home/tshai/Desktop/moon/install/student/lib/pkgconfig/student.pc'
+[0.726s] Level 1:colcon.colcon_core.environment:checking '/home/tshai/Desktop/moon/install/student/lib/python3.10/site-packages'
+[0.726s] Level 1:colcon.colcon_core.shell:create_environment_hook('student', 'pythonpath')
+[0.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tshai/Desktop/moon/install/student/share/student/hook/pythonpath.ps1'
+[0.726s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tshai/Desktop/moon/install/student/share/student/hook/pythonpath.dsv'
+[0.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tshai/Desktop/moon/install/student/share/student/hook/pythonpath.sh'
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/tshai/Desktop/moon/install/student/bin'
+[0.727s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(student)
+[0.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/tshai/Desktop/moon/install/student/share/student/package.ps1'
+[0.728s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tshai/Desktop/moon/install/student/share/student/package.dsv'
+[0.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/tshai/Desktop/moon/install/student/share/student/package.sh'
+[0.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/tshai/Desktop/moon/install/student/share/student/package.bash'
+[0.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/tshai/Desktop/moon/install/student/share/student/package.zsh'
+[0.729s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tshai/Desktop/moon/install/student/share/colcon-core/packages/student)
+[0.729s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.729s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.729s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.729s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.732s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.732s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.732s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.740s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.740s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tshai/Desktop/moon/install/local_setup.ps1'
+[0.740s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tshai/Desktop/moon/install/_local_setup_util_ps1.py'
+[0.741s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tshai/Desktop/moon/install/setup.ps1'
+[0.742s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tshai/Desktop/moon/install/local_setup.sh'
+[0.742s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tshai/Desktop/moon/install/_local_setup_util_sh.py'
+[0.743s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tshai/Desktop/moon/install/setup.sh'
+[0.743s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tshai/Desktop/moon/install/local_setup.bash'
+[0.743s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tshai/Desktop/moon/install/setup.bash'
+[0.744s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tshai/Desktop/moon/install/local_setup.zsh'
+[0.744s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tshai/Desktop/moon/install/setup.zsh'

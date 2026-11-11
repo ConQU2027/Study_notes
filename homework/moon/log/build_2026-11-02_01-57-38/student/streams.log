@@ -1,0 +1,21 @@
+[0.404s] Invoking command in '/home/tshai/Desktop/moon/src/student': PYTHONPATH=/home/tshai/Desktop/moon/build/student/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tshai/Desktop/moon/install/student/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/student build --build-base /home/tshai/Desktop/moon/build/student/build install --record /home/tshai/Desktop/moon/build/student/install.log --install-scripts $base/lib/student --single-version-externally-managed install_data
+[0.512s] running egg_info
+[0.512s] writing ../../build/student/student.egg-info/PKG-INFO
+[0.512s] writing dependency_links to ../../build/student/student.egg-info/dependency_links.txt
+[0.512s] writing entry points to ../../build/student/student.egg-info/entry_points.txt
+[0.512s] writing requirements to ../../build/student/student.egg-info/requires.txt
+[0.513s] writing top-level names to ../../build/student/student.egg-info/top_level.txt
+[0.514s] reading manifest file '../../build/student/student.egg-info/SOURCES.txt'
+[0.514s] writing manifest file '../../build/student/student.egg-info/SOURCES.txt'
+[0.514s] running build
+[0.514s] running build_py
+[0.514s] running install
+[0.514s] running install_lib
+[0.515s] running install_data
+[0.515s] running install_egg_info
+[0.516s] removing '/home/tshai/Desktop/moon/install/student/lib/python3.10/site-packages/student-0.0.0-py3.10.egg-info' (and everything under it)
+[0.516s] Copying ../../build/student/student.egg-info to /home/tshai/Desktop/moon/install/student/lib/python3.10/site-packages/student-0.0.0-py3.10.egg-info
+[0.517s] running install_scripts
+[0.528s] Installing student_node script to /home/tshai/Desktop/moon/install/student/lib/student
+[0.528s] writing list of installed files to '/home/tshai/Desktop/moon/build/student/install.log'
+[0.550s] Invoked command in '/home/tshai/Desktop/moon/src/student' returned '0': PYTHONPATH=/home/tshai/Desktop/moon/build/student/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tshai/Desktop/moon/install/student/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/student build --build-base /home/tshai/Desktop/moon/build/student/build install --record /home/tshai/Desktop/moon/build/student/install.log --install-scripts $base/lib/student --single-version-externally-managed install_data
