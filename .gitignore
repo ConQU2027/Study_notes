@@ -1,0 +1,13 @@
+target/
+*.class
+*.o
+node_modules/
+dist/
+.idea/
+.vscode/
+.env
+.DS_Store
+*.log
+build/
+install/
+log/
