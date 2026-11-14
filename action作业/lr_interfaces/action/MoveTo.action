@@ -1,0 +1,13 @@
+# Goal
+# 直接引用geometry_msgs类型
+geometry_msgs/Point target_position  # 目标位置 (x, y)
+---
+# Result
+geometry_msgs/Point final_position   # 最终停止的位置
+float64 total_time_sec               # 任务总耗时 (用时间代替天数更通用)
+---
+# Feedback
+geometry_msgs/Point current_position   # 实时位置 (x, y)
+geometry_msgs/Vector3 current_velocity # 实时速度向量 (vx, vy)
+float64 distance_to_target             # 距离目标点的剩余距离
+
