@@ -1,0 +1,22 @@
+image_source_node:
+  ros__parameters:
+    source_type: camera
+    device: /dev/video0
+    width: 640
+    height: 480
+    fps: 20.0
+    frame_id: camera_optical_frame
+
+detector_node:
+  ros__parameters:
+    s_min: 90
+    v_min: 50
+    target_width_mm: 85.0
+    target_height_mm: 62.0
+    chamfer_long_mm: 23.2
+    chamfer_short_mm: 15.5
+    fx: 490.47
+    fy: 489.07
+    cx: 313.00
+    cy: 249.05
+    publish_debug_image: true

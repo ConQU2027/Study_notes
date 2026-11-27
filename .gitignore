@@ -11,3 +11,14 @@ dist/
 build/
 install/
 log/
+
+# ROS2 build artifacts
+build/
+install/
+log/
+bags/
+*.db3
+*.mcap
+*.mp4
+__pycache__/
+*.pyc
