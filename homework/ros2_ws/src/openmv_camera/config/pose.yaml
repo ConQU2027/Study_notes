@@ -1,0 +1,19 @@
+/camera/pose_estimator:
+  ros__parameters:
+    # Select the physical target explicitly: 0.099 or 0.050 metres.
+    target_size_m: 0.099
+    max_reprojection_error_px: 8.0
+    min_positive_depth_m: 0.02
+    tf_timeout_sec: 0.05
+    previous_pose_timeout_sec: 0.5
+    base_frame: "base_link"
+    camera_frame: "camera_optical_frame"
+    target_frame: "target"
+    # assumed_static: publish the mount below; external: use robot TF and publish no mount.
+    mount_tf_mode: "assumed_static"
+    # ASSUMED mount only, ignored in external mode. Not measured robot extrinsics.
+    # base_link: x forward, y left, z up. Camera is 20 cm forward, 10 cm up.
+    # Optical axes: x right=-base y, y down=-base z, z forward=+base x.
+    base_to_camera_translation_m: [0.20, 0.0, 0.10]
+    base_to_camera_rpy_deg: [-90.0, 0.0, -90.0]
+    use_sim_time: false

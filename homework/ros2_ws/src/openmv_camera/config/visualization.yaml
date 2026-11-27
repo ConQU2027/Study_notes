@@ -1,0 +1,7 @@
+/camera/target_visualizer:
+  ros__parameters:
+    # Display thickness/line width only; the target's physical thickness is unknown.
+    display_thickness_m: 0.001
+    line_width_m: 0.002
+    base_frame: "base_link"
+    use_sim_time: false

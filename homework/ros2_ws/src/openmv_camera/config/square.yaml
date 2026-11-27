@@ -1,0 +1,12 @@
+/camera/square_detector:
+  ros__parameters:
+    # Initial geometry gates; tune using the real square/stats output.
+    morph_kernel_size: 3
+    morph_open_iterations: 1
+    morph_close_iterations: 1
+    min_area_px: 300.0
+    max_area_ratio: 0.9
+    approx_epsilon_ratio: 0.04
+    aspect_ratio_max: 1.4
+    min_angle_deg: 70.0
+    max_angle_deg: 110.0

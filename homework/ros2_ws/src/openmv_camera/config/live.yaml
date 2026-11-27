@@ -1,0 +1,17 @@
+/camera/openmv_camera:
+  ros__parameters:
+    serial_port: "/dev/ttyACM0"
+    serial_read_timeout_sec: 0.2
+    reconnect_delay_sec: 1.0
+    read_chunk_size: 16384
+    frame_id: "camera_optical_frame"
+    expected_width: 320
+    expected_height: 240
+    queue_size: 2
+    stats_period_sec: 1.0
+    max_jpeg_bytes: 1000000
+    frame_timeout_ms: 500
+    opencv_num_threads: 1
+    # No fake calibration: K remains zero until a real QVGA calibration is supplied.
+    camera_info_url: ""
+    use_sim_time: false

@@ -1,0 +1,27 @@
+image_width: 320
+image_height: 240
+camera_name: openmv_h7_plus_qvga
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [271.00363156859805, 0.0, 167.77481058005574,
+         0.0, 270.4194728010226, 110.37059870144901,
+         0.0, 0.0, 1.0]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.002303082307644189, 0.0002259981096985242,
+         0.0003301421139288512, 0.0035628845163513897, 0.0]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1.0, 0.0, 0.0,
+         0.0, 1.0, 0.0,
+         0.0, 0.0, 1.0]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [269.92193603515625, 0.0, 168.37055709186825, 0.0,
+         0.0, 270.0816650390625, 109.98252846977266, 0.0,
+         0.0, 0.0, 1.0, 0.0]

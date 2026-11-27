@@ -1,0 +1,12 @@
+/camera/target_tracker:
+  ros__parameters:
+    # Image-space one-to-one association with constant-velocity prediction.
+    max_association_distance_px: 60.0
+    max_area_ratio: 2.0
+    velocity_alpha: 0.5
+    # A detection needs two hits before it is sent to PnP.
+    min_hits: 2
+    # Keep identity briefly during occlusion, but never emit stale targets.
+    max_missed_frames: 5
+    track_timeout_sec: 0.5
+    use_sim_time: false

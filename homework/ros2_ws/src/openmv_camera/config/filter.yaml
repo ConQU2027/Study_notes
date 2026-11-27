@@ -1,0 +1,14 @@
+/camera/pose_filter:
+  ros__parameters:
+    # One Euro position filtering; increase beta for faster motion response.
+    position_min_cutoff_hz: 1.0
+    position_beta: 0.02
+    position_derivative_cutoff_hz: 1.0
+    # Time-constant quaternion SLERP, not Euler-angle averaging.
+    orientation_tau_sec: 0.12
+    max_position_jump_m: 0.30
+    max_rotation_jump_deg: 80.0
+    reacquire_timeout_sec: 0.5
+    base_frame: "base_link"
+    target_frame: "target_filtered"
+    use_sim_time: false
