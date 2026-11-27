@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>vision</name>
+  <version>0.1.0</version>
+  <description>白方块识别节点：订阅相机图像，输出目标在相机坐标系下的位姿</description>
+
+  <maintainer email="an@example.com">an</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>tf2</depend>
+  <depend>libopencv-dev</depend>
+  <depend>vision_core</depend>
+
+  <!-- launch 一键启动：ros2 launch vision vision.launch.py -->
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>usb_cam</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
