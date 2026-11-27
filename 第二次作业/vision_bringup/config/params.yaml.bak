@@ -1,0 +1,63 @@
+# ============ 目标几何 ============
+target_detector:
+  ros__parameters:
+    target_width: 0.200
+    target_height: 0.120
+    notch_width: 0.030
+    notch_depth: 0.020
+    notch_edge_ref: 0
+    hsv_lower: [0, 80, 60]
+    hsv_upper: [45, 255, 255]
+    morph_kernel: 5
+    morph_iterations: 1
+    min_area_ratio: 0.003
+    max_area_ratio: 0.70
+    notch_min_depth_ratio: 0.03
+    process_scale: 1.0
+    use_edge_refine: true
+    edge_band_ratio: 0.04
+    undistort_image: true
+    publish_debug_image: true
+    log_interval: 100
+# ============ 位姿解算 ============
+target_pose:
+  ros__parameters:
+    target_width: 0.200
+    target_height: 0.120
+    pnp_method: "IPPE"
+    use_refine_lm: true
+    assume_undistorted: true
+    alpha_position: 1.0
+    alpha_rotation: 1.0
+    max_position_jump: 0.30
+    parent_frame: "camera_link"
+    child_frame: "target"
+    log_interval: 50
+# ============ 相机 ============
+usb_cam:
+  ros__parameters:
+    video_device: "/dev/video0"
+    image_width: 640
+    image_height: 480
+    framerate: 60.0
+    pixel_format: "mjpeg2rgb"
+    camera_name: "camera"
+    camera_info_url: "file:///home/yesleg/vision_ws/src/hf687_camera/config/calibration/camera_info.yaml"
+    io_method: "mmap"
+# ============ 合成数据（开发用）============
+synthetic_target:
+  ros__parameters:
+    width_px: 640
+    height_px: 480
+    fps: 20.0
+    fx: 689.08698
+    fy: 690.11011
+    cx: 314.96837
+    cy: 220.96073
+    dist_k1: 0.0
+    dist_k2: 0.0
+    motion_amplitude: 0.03
+    motion_period: 6.0
+    add_noise: true
+    noise_sigma: 4.0
+    background_gray: 40

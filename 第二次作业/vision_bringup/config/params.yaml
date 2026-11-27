@@ -1,0 +1,78 @@
+target_detector:
+  ros__parameters:
+    target_width: 0.088
+    target_height: 0.088
+    notch_width: 0.036
+    notch_depth: 0.025
+    detect_mode: "dark"
+    use_otsu: true
+    dark_thresh: 80
+    invert: true
+    use_neutral_filter: false
+    exclude_green: true
+    green_hue_lo: 35
+    green_hue_hi: 95
+    green_sat_min: 70
+    max_saturation: 60
+    hsv_lower: [0, 100, 60]
+    hsv_upper: [40, 255, 255]
+    morph_kernel: 7
+    morph_iterations: 2
+    min_area_ratio: 0.004
+    max_area_ratio: 0.70
+    notch_min_depth_ratio: 0.03
+    min_solidity: 0.85
+    aspect_tolerance: 0.3
+    notch_prominence: 2.0
+    process_scale: 1.0
+    use_edge_refine: true
+    edge_band_ratio: 0.04
+    undistort_image: false
+    publish_debug_image: true
+    log_interval: 100
+target_pose:
+  ros__parameters:
+    target_width: 0.088
+    target_height: 0.088
+    notch_width: 0.036
+    pnp_method: "IPPE"
+    use_refine_lm: true
+    assume_undistorted: true
+    alpha_position: 0.25
+    alpha_rotation: 0.25
+    max_position_jump: 0.30
+    parent_frame: "camera_link"
+    child_frame: "target"
+    log_interval: 50
+hf687_camera:
+  ros__parameters:
+    video_device: "/dev/video0"
+    image_width: 640
+    image_height: 480
+    framerate: 60.0
+    use_mjpeg: true
+    frame_id: "camera_link"
+    fx: 689.08698
+    fy: 690.11011
+    cx: 314.96837
+    cy: 220.96073
+    dist_k1: -0.396394
+    dist_k2: 0.131580
+    dist_p1: -0.002055
+    dist_p2: 0.002977
+synthetic_target:
+  ros__parameters:
+    width_px: 640
+    height_px: 480
+    fps: 20.0
+    fx: 689.08698
+    fy: 690.11011
+    cx: 314.96837
+    cy: 220.96073
+    dist_k1: 0.0
+    dist_k2: 0.0
+    motion_amplitude: 0.03
+    motion_period: 6.0
+    add_noise: true
+    noise_sigma: 4.0
+    background_gray: 40
